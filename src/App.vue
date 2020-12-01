@@ -1,11 +1,22 @@
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-    <router-view></router-view>
+    <router-link to="/about">About</router-link>|
+    <router-link to="/chioce">Chioce</router-link> |
+    <router-link to="/ceshi">测试</router-link>
+    
+      
+    <router-view  ></router-view>
+   
+    
   </div>
 
 </template>
+<script>
+  export default {
+    
+  }
+</script>
 
 <style>
 #app {
